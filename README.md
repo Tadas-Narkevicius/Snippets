@@ -20,8 +20,8 @@ while($row = $result->fetch_assoc()) {
 $db->close();
 die();
 
-> Pdo Connections.
-...
+## Pdo Connections.
+
 $servername = "localhost";
 $username = " ";
 $password = " ";
@@ -44,4 +44,4 @@ foreach($rezults as $row) {
     echo $row['name'] . " "; 
     echo $row['lastname'] . " "; 
 }
-...
+
